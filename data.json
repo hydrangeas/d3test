@@ -1,0 +1,1202 @@
+[
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-01T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 1000
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 0.0006199865849485561
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 0.0032544730433387153
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-01T00:00:00",
+      "Value": 128
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-02T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 1005
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 0.0007266219191064873
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 0.0022914022314655703
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-02T00:00:00",
+      "Value": 311
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-03T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-03T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-03T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-03T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-03T00:00:00",
+      "Value": 1010
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-03T00:00:00",
+      "Value": -0.0004954212839520995
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-03T00:00:00",
+      "Value": 0.002199359859906061
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-03T00:00:00",
+      "Value": 70
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-04T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-04T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-04T00:00:00",
+      "Value": 4
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-04T00:00:00",
+      "Value": 1
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-04T00:00:00",
+      "Value": 1015
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-04T00:00:00",
+      "Value": 0.002970258406516499
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-04T00:00:00",
+      "Value": -0.0035125014678356044
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-04T00:00:00",
+      "Value": 180
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-05T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 1020
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 0.0024019650099675943
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 0.0039030833263193135
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-05T00:00:00",
+      "Value": 204
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-06T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-06T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-06T00:00:00",
+      "Value": 1
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-06T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-06T00:00:00",
+      "Value": 1025
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-06T00:00:00",
+      "Value": 0.002473643760056048
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-06T00:00:00",
+      "Value": -0.002739281825620341
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-06T00:00:00",
+      "Value": 25
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-07T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-07T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-07T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-07T00:00:00",
+      "Value": 1
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-07T00:00:00",
+      "Value": 1030
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-07T00:00:00",
+      "Value": -0.0030844353191327063
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-07T00:00:00",
+      "Value": -0.0030356024443517864
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-07T00:00:00",
+      "Value": 77
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-08T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-08T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-08T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-08T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-08T00:00:00",
+      "Value": 1035
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-08T00:00:00",
+      "Value": -0.0007063293428118795
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-08T00:00:00",
+      "Value": -0.0002416700556539162
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-08T00:00:00",
+      "Value": 223
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-09T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-09T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-09T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-09T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-09T00:00:00",
+      "Value": 1040
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-09T00:00:00",
+      "Value": -0.002771789665544495
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-09T00:00:00",
+      "Value": -0.0007266336931381536
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-09T00:00:00",
+      "Value": 44
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-10T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 1
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 1045
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 0.0030839282333777153
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 0.0003995007830286095
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-10T00:00:00",
+      "Value": 254
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-11T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-11T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-11T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-11T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-11T00:00:00",
+      "Value": 1050
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-11T00:00:00",
+      "Value": -0.0004085455779643519
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-11T00:00:00",
+      "Value": 0.003050183196105778
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-11T00:00:00",
+      "Value": 153
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-12T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 1055
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 0.0012125457953225637
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 0.0029074876689638525
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-12T00:00:00",
+      "Value": 51
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-13T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-13T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-13T00:00:00",
+      "Value": 8
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-13T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-13T00:00:00",
+      "Value": 1060
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-13T00:00:00",
+      "Value": -0.0021643980632260044
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-13T00:00:00",
+      "Value": -0.002074121903280794
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-13T00:00:00",
+      "Value": 198
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-14T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-14T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-14T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-14T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-14T00:00:00",
+      "Value": 1065
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-14T00:00:00",
+      "Value": -0.0014506824949658127
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-14T00:00:00",
+      "Value": 0.0020729654070038303
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-14T00:00:00",
+      "Value": 274
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-15T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-15T00:00:00",
+      "Value": 1
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-15T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-15T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-15T00:00:00",
+      "Value": 1070
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-15T00:00:00",
+      "Value": -0.0015983818695270752
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-15T00:00:00",
+      "Value": -0.0023449724110505086
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-15T00:00:00",
+      "Value": 237
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-16T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-16T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-16T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-16T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-16T00:00:00",
+      "Value": 1075
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-16T00:00:00",
+      "Value": -0.0006429372281602586
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-16T00:00:00",
+      "Value": -0.0017640547317644842
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-16T00:00:00",
+      "Value": 58
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-17T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-17T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-17T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-17T00:00:00",
+      "Value": 1
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-17T00:00:00",
+      "Value": 1080
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-17T00:00:00",
+      "Value": -0.0008455489719484915
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-17T00:00:00",
+      "Value": -0.0029977148684397752
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-17T00:00:00",
+      "Value": 342
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-18T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-18T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-18T00:00:00",
+      "Value": 4
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-18T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-18T00:00:00",
+      "Value": 1085
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-18T00:00:00",
+      "Value": -0.002790777754467287
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-18T00:00:00",
+      "Value": -0.0013058436782756306
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-18T00:00:00",
+      "Value": 262
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-19T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-19T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-19T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-19T00:00:00",
+      "Value": 5
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-19T00:00:00",
+      "Value": 1090
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-19T00:00:00",
+      "Value": -0.00022162353441546392
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-19T00:00:00",
+      "Value": 0.0034230678597703046
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-19T00:00:00",
+      "Value": 161
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-20T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-20T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-20T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-20T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-20T00:00:00",
+      "Value": 1095
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-20T00:00:00",
+      "Value": -0.0010310874354983552
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-20T00:00:00",
+      "Value": -0.003480235521899889
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-20T00:00:00",
+      "Value": 294
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-21T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-21T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-21T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-21T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-21T00:00:00",
+      "Value": 1100
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-21T00:00:00",
+      "Value": 0.0018715274792335942
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-21T00:00:00",
+      "Value": -0.003797192231359378
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-21T00:00:00",
+      "Value": 223
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-22T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 1105
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 0.0017105120006980189
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 0.0009593569731331467
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-22T00:00:00",
+      "Value": 329
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-23T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-23T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-23T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-23T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-23T00:00:00",
+      "Value": 1110
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-23T00:00:00",
+      "Value": -0.0020304570999243356
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-23T00:00:00",
+      "Value": -0.0034113738489102456
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-23T00:00:00",
+      "Value": 186
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-24T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-24T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-24T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-24T00:00:00",
+      "Value": 4
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-24T00:00:00",
+      "Value": 1115
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-24T00:00:00",
+      "Value": -0.0022936675317023723
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-24T00:00:00",
+      "Value": -0.002553084840626423
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-24T00:00:00",
+      "Value": 331
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-25T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-25T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-25T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-25T00:00:00",
+      "Value": 0
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-25T00:00:00",
+      "Value": 1120
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-25T00:00:00",
+      "Value": 0.0018493773453311284
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-25T00:00:00",
+      "Value": -0.002893255348636884
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-25T00:00:00",
+      "Value": 271
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-26T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-26T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-26T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-26T00:00:00",
+      "Value": 4
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-26T00:00:00",
+      "Value": 1125
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-26T00:00:00",
+      "Value": -0.003911291683076932
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-26T00:00:00",
+      "Value": 0.003482119571816279
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-26T00:00:00",
+      "Value": 78
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-27T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-27T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-27T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-27T00:00:00",
+      "Value": 7
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-27T00:00:00",
+      "Value": 1130
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-27T00:00:00",
+      "Value": 0.0017404318425431123
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-27T00:00:00",
+      "Value": -0.0011778612425927698
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-27T00:00:00",
+      "Value": 285
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-28T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-28T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-28T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-28T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-28T00:00:00",
+      "Value": 1135
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-28T00:00:00",
+      "Value": 0.0009064697422837302
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-28T00:00:00",
+      "Value": -0.002505398051088596
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-28T00:00:00",
+      "Value": 12
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-29T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-29T00:00:00",
+      "Value": 10
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-29T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-29T00:00:00",
+      "Value": 6
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-29T00:00:00",
+      "Value": 1140
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-29T00:00:00",
+      "Value": -0.002922029987428834
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-29T00:00:00",
+      "Value": -0.0028806990346659867
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-29T00:00:00",
+      "Value": 282
+  },
+  {
+      "division": "Firmware Version",
+      "Date": "2024-05-30T00:00:00",
+      "Value": "1.0.0"
+  },
+  {
+      "division": "Error1",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 3
+  },
+  {
+      "division": "Error2",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 2
+  },
+  {
+      "division": "Error3",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 9
+  },
+  {
+      "division": "Spindle",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 1145
+  },
+  {
+      "division": "Gradient X",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 0.0033452830420310498
+  },
+  {
+      "division": "Gradient Y",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 0.001929929401813359
+  },
+  {
+      "division": "Angle Offset",
+      "Date": "2024-05-30T00:00:00",
+      "Value": 8
+  }
+]
