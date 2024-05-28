@@ -10,19 +10,47 @@
     <p>これは、HTMLの基本的な構造です。</p>
 
     <!--Firmware Version-->
-    <svg id="svgTimeLine1" style="width: 100%; height: 40px"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgTimeLine1"
+      style="width: 100%; height: 40px"
+    ></svg>
     <!--Automatic Correction-->
-    <svg id="svgTimeLine2" style="width: 100%; height: 40px"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgTimeLine2"
+      style="width: 100%; height: 40px"
+    ></svg>
     <!--Collet Maintenance-->
-    <svg id="svgTimeLine3" style="width: 100%; height: 40px"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgTimeLine3"
+      style="width: 100%; height: 40px"
+    ></svg>
     <!--Machine Cleaning-->
-    <svg id="svgTimeLine4" style="width: 100%; height: 40px"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgTimeLine4"
+      style="width: 100%; height: 40px"
+    ></svg>
     <!--Error History-->
-    <svg id="svgStackedBarChart1" style="width: 100%; height: 100%"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgStackedBarChart1"
+      style="width: 100%; height: 100%"
+    ></svg>
     <!--Machine Status-->
-    <svg id="svgLineChart1" style="width: 100%; height: 100%"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgLineChart1"
+      style="width: 100%; height: 100%"
+    ></svg>
     <!--Angle Offset-->
-    <svg id="svgStackedBarChart2" style="width: 100%; height: 100%"></svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="svgStackedBarChart2"
+      style="width: 100%; height: 100%"
+    ></svg>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="timeline.js"></script>
@@ -52,8 +80,18 @@
             "Error"
           );
           const resultLineChart1 = LineChart(stocks, "#svgLineChart1");
+          const resultStackedBarChart2 = StackedBarChart(
+            stocks,
+            "#svgStackedBarChart2",
+            "Angle Offset"
+          );
           d3.selectAll(
-            "#svgTimeLine2,#svgTimeLine3,#svgTimeLine4,#svgStackedBarChart1,#svgLineChart1"
+            "#svgTimeLine2" +
+              ",#svgTimeLine3" +
+              ",#svgTimeLine4" +
+              ",#svgStackedBarChart1" +
+              ",#svgLineChart1" +
+              ",#svgStackedBarChart2"
           ).on("mousemove touchmove", function (event) {
             // console.log(d3.pointer(event, this)[0]);
             resultTimeLine2[1](
@@ -70,6 +108,9 @@
             );
             resultLineChart1[1](
               resultLineChart1[0].invert(d3.pointer(event, this)[0])
+            );
+            resultStackedBarChart2[1](
+              resultStackedBarChart2[0].invert(d3.pointer(event, this)[0])
             );
           });
         });
