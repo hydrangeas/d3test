@@ -1,4 +1,4 @@
-function TimeLine(data, element) {
+function TimeLine(data, element, dataFilter) {
   const marginRight = 80;
   const marginLeft = 40;
 
@@ -12,8 +12,6 @@ function TimeLine(data, element) {
     .domain(d3.extent(data, (d) => d3.isoParse(d.Date)))
     .range([marginLeft, width - marginRight])
     .clamp(true);
-  console.log(x.range());
-  console.log(x(d3.isoParse("2024-05-01T00:00:00")));
 
   const series = d3
     .groups(data, (d) => d.division)
@@ -26,7 +24,7 @@ function TimeLine(data, element) {
         })),
       };
     })
-    .filter((d) => d.key.startsWith("Automatic"));
+    .filter((d) => d.key.startsWith(dataFilter));
 
   svg
     .selectAll("#svgArea")
@@ -55,12 +53,13 @@ function TimeLine(data, element) {
     .append("circle")
     .attr("cx", (d) => x(d3.utcDay.round(d3.isoParse(d.Date)))) // ここを修正
     .attr("cy", height / 2)
-    .attr("r", 5)
-    .attr("fill", "none")
+    .attr("r", 2)
+    .attr("fill", "black")
     .attr("stroke", "black");
 
   // --
-  d3.transition()
+  const uniqueId = Math.random().toString(36).slice(2, 18);
+  d3.transition(uniqueId)
     .ease(d3.easeCubicOut)
     .duration(1500)
     .tween("date", () => {
