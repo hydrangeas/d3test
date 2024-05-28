@@ -13,7 +13,7 @@ function StackedBarChart(data, element, dataFilter) {
   // Create the horizontal time scale.
   const x = d3
     .scaleUtc()
-    .domain(d3.extent(data, (d) => d3.isoParse(d.Date)))
+    .domain(d3.extent(data, (d) => d3.utcDay.round(d3.isoParse(d.Date))))
     .range([marginLeft, width - marginRight])
     .clamp(true);
 
@@ -77,19 +77,10 @@ function StackedBarChart(data, element, dataFilter) {
     .attr("y2", 0)
     .attr("stroke", "black");
 
-  // Create a line and a label for each series.
-  const serie = svg1
-    .append("g")
-    .style("font", "bold 10px sans-serif")
-    .selectAll("g")
-    .data(series)
-    .join("g");
-
-  const line = d3
-    .line()
-    .x((d) => x(d3.utcDay.round(d3.isoParse(d.Date)))) // ここを修正
-    .y((d) => y(d.value));
-
+  // データセットのサイズを取得
+  const datasetSize = series[0].length;
+  // 全体の幅をデータセットのサイズで割り、各バーの新しい幅を計算
+  const barWidth = width / datasetSize / 2;
   svg
     .append("g")
     .selectAll("g")
@@ -99,10 +90,10 @@ function StackedBarChart(data, element, dataFilter) {
     .selectAll("rect")
     .data((D) => D)
     .join("rect")
-    .attr("x", (d) => x(d3.utcDay.round(d3.isoParse(d.data[0]))))
+    .attr("x", (d) => x(d3.utcDay.round(d3.isoParse(d.data[0]))) - barWidth / 2) // バーのx座標を左にシフト
     .attr("y", (d) => y(d[1]))
     .attr("height", (d) => y(d[0]) - y(d[1]))
-    .attr("width", 5);
+    .attr("width", barWidth);
 
   // Define the update function, that translates each of the series vertically depending on the
   // ratio between its value at the current date and the value at date 0. Thanks to the log
@@ -110,12 +101,6 @@ function StackedBarChart(data, element, dataFilter) {
   function update(date) {
     date = d3.utcDay.round(date);
     rule.attr("transform", `translate(${x(date)},0)`);
-    // serie.attr("transform", ({ values }) => {
-    //   const i = bisect(values, date, 0, values.length - 1);
-    //   return `translate(0,${
-    //     y(1) - y(values[i].value / values[0].value)
-    //   })`;
-    // });
     svg1.property("value", date).dispatch("input"); // for viewof compatibility
   }
 
@@ -129,13 +114,6 @@ function StackedBarChart(data, element, dataFilter) {
       const i = d3.interpolateDate(x.domain()[1], x.domain()[0]);
       return (t) => update(i(t));
     });
-
-  // When the user mouses over the chart, update it according to the date that is
-  // referenced by the horizontal position of the pointer.
-  // svg1.on("mousemove touchmove", function (event) {
-  //   update(x.invert(d3.pointer(event, this)[0]));
-  //   //d3.event.preventDefault();
-  // });
 
   return [x, update];
 }

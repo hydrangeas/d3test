@@ -55,6 +55,7 @@
           d3.selectAll(
             "#svgTimeLine2,#svgTimeLine3,#svgTimeLine4,#svgStackedBarChart1,#svgLineChart1"
           ).on("mousemove touchmove", function (event) {
+            // console.log(d3.pointer(event, this)[0]);
             resultTimeLine2[1](
               resultTimeLine2[0].invert(d3.pointer(event, this)[0])
             );

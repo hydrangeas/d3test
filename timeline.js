@@ -9,7 +9,7 @@ function TimeLine(data, element, dataFilter) {
 
   const x = d3
     .scaleUtc()
-    .domain(d3.extent(data, (d) => d3.isoParse(d.Date)))
+    .domain(d3.extent(data, (d) => d3.utcDay.round(d3.isoParse(d.Date))))
     .range([marginLeft, width - marginRight])
     .clamp(true);
 
@@ -51,11 +51,11 @@ function TimeLine(data, element, dataFilter) {
     .data(series[0].values.filter((d) => d.value))
     .enter()
     .append("circle")
-    .attr("cx", (d) => x(d3.utcDay.round(d3.isoParse(d.Date)))) // ここを修正
+    .attr("cx", (d) => x(d3.utcDay.round(d3.isoParse(d.Date))))
     .attr("cy", height / 2)
-    .attr("r", 2)
-    .attr("fill", "black")
-    .attr("stroke", "black");
+    .attr("r", 3)
+    .attr("fill", "red")
+    .attr("stroke", "red");
 
   // --
   const uniqueId = Math.random().toString(36).slice(2, 18);

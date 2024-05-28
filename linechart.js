@@ -1,4 +1,4 @@
-function LineChart(stocks, element) {
+function LineChart(data, element) {
   // Specify the chart’s dimensions.
   const marginTop = 20;
   const marginRight = 80;
@@ -13,7 +13,7 @@ function LineChart(stocks, element) {
   // Create the horizontal time scale.
   const x = d3
     .scaleUtc()
-    .domain(d3.extent(stocks, (d) => d3.isoParse(d.Date)))
+    .domain(d3.extent(data, (d) => d3.utcDay.round(d3.isoParse(d.Date))))
     .range([marginLeft, width - marginRight])
     .clamp(true);
 
@@ -21,7 +21,7 @@ function LineChart(stocks, element) {
   // the whole series with respect to a different date amounts to a simple vertical translation,
   // thanks to the logarithmic scale! See also https://observablehq.com/@d3/change-line-chart
   const series = d3
-    .groups(stocks, (d) => d.division)
+    .groups(data, (d) => d.division)
     .map(([key, values]) => {
       return {
         key,
