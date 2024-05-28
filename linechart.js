@@ -1,17 +1,18 @@
 function LineChart(stocks, element) {
   // Specify the chart’s dimensions.
-  const width = 928;
-  const height = 300;
   const marginTop = 20;
   const marginRight = 80;
   const marginBottom = 30;
   const marginLeft = 40;
 
+  const svg = d3.select(element);
+  const svgNode = svg.node();
+  const width = svgNode.getBoundingClientRect().width;
+  const height = svgNode.getBoundingClientRect().height; // Uncomment this line
+
   // Create the horizontal time scale.
-  //var parseDate = d3.timeParse("%Y-%m-%d");
   const x = d3
     .scaleUtc()
-    //.domain(d3.extent(stocks, (d) => parseDate(d.Date)))
     .domain(d3.extent(stocks, (d) => d3.isoParse(d.Date)))
     .range([marginLeft, width - marginRight])
     .clamp(true);
@@ -87,7 +88,7 @@ function LineChart(stocks, element) {
 
   const line = d3
     .line()
-    .x((d) => x(d.Date))
+    .x((d) => x(d3.utcDay.round(d3.isoParse(d.Date)))) // ここを修正
     .y((d) => y(d.value));
 
   serie
@@ -119,7 +120,7 @@ function LineChart(stocks, element) {
   // scale, this gives the same result as a normalization by the value at the current date.
   function update(date) {
     date = d3.utcDay.round(date);
-    rule.attr("transform", `translate(${x(date) + 0.5},0)`);
+    rule.attr("transform", `translate(${x(date)},0)`);
     // serie.attr("transform", ({ values }) => {
     //   const i = bisect(values, date, 0, values.length - 1);
     //   return `translate(0,${

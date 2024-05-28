@@ -20,22 +20,35 @@
     <!--Error History-->
     <svg id="svgStackedBarChart1" style="width: 100%; height: 100%"></svg>
     <!--Machine Status-->
-    <svg id="svgArea1" style="width: 100%; height: 100%"></svg>
+    <svg id="svgLineChart1" style="width: 100%; height: 100%"></svg>
     <!--Angle Offset-->
     <svg id="svgStackedBarChart2" style="width: 100%; height: 100%"></svg>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="linechart.js"></script>
+    <script src="timeline.js"></script>
     <script>
       (async () => {
         await d3.json("data.json").then((stocks) => {
-          const results1 = LineChart(stocks, "#svgArea1");
-          // const results2 = LineChart(stocks, "#svgArea2");
-          d3.selectAll("#svgArea1,#svgArea2").on(
+          const resultTimeLine2 = TimeLine(stocks, "#svgTimeLine2");
+          const resultLineChart1 = LineChart(stocks, "#svgLineChart1");
+          d3.selectAll("#svgLineChart1,#svgTimeLine2").on(
             "mousemove touchmove",
             function (event) {
-              results1[1](results1[0].invert(d3.pointer(event, this)[0]));
-              // results2[1](results2[0].invert(d3.pointer(event, this)[0]));
+              console.log(d3.pointer(event, this)[0]);
+
+              resultTimeLine2[1](
+                resultTimeLine2[0].invert(d3.pointer(event, this)[0])
+              );
+              console.log(
+                resultTimeLine2[0].invert(d3.pointer(event, this)[0])
+              );
+              resultLineChart1[1](
+                resultLineChart1[0].invert(d3.pointer(event, this)[0])
+              );
+              console.log(
+                resultLineChart1[0].invert(d3.pointer(event, this)[0])
+              );
             }
           );
         });
